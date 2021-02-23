@@ -1034,6 +1034,11 @@
   resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-11.0.0-canary.3201cae47.0.tgz#50299cf02e51c0a1c284d541c2f78fea7045c020"
   integrity sha512-PCydptK1ogcprs/UVR5C5QBS+igUwLHsumG4LFx4BESfquWI+QQ08pqvMkqw+PC/2LClouv3/Y+qzEWM5U+6gQ==
 
+"@material/feature-targeting@11.0.0-canary.95322b11e.0":
+  version "11.0.0-canary.95322b11e.0"
+  resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-11.0.0-canary.95322b11e.0.tgz#54b2ef3b1856b1b96d98e793e6aa1988b00dbd15"
+  integrity sha512-6o1tGZdzgQhEW7uR5LphTCPQLSs4x9Fyxhwbg20uMcpC3t3LTkAfLBj172cx+ziaTrZEn7CBYlV47sl0YLY0ZQ==
+
 "@material/floating-label@11.0.0-canary.3201cae47.0":
   version "11.0.0-canary.3201cae47.0"
   resolved "https://registry.yarnpkg.com/@material/floating-label/-/floating-label-11.0.0-canary.3201cae47.0.tgz#f9bd5afcf4a6f8fde794ac84fbfa9bc607a03de9"
@@ -1213,6 +1218,13 @@
   dependencies:
     "@material/theme" "11.0.0-canary.3201cae47.0"
 
+"@material/rtl@11.0.0-canary.95322b11e.0":
+  version "11.0.0-canary.95322b11e.0"
+  resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-11.0.0-canary.95322b11e.0.tgz#cd9e84cda6c238b13d051b91db107b13b487afcd"
+  integrity sha512-Q/n0YpynLt30Q1+QNKna47k7fAv3IYeO6asOhxPuus/qlGyAVOJT1tbQbFcWY9CpClzCqRwNs/225LTt+cKnkg==
+  dependencies:
+    "@material/theme" "11.0.0-canary.95322b11e.0"
+
 "@material/segmented-button@11.0.0-canary.3201cae47.0":
   version "11.0.0-canary.3201cae47.0"
   resolved "https://registry.yarnpkg.com/@material/segmented-button/-/segmented-button-11.0.0-canary.3201cae47.0.tgz#889cc6a1785a057af75998cff097ba849ba5d301"
@@ -1385,6 +1397,13 @@
   integrity sha512-XP3eI9Vbsz5JfvaTQkWb5ReE1WtAqOgqMrcZrnEjy7QyfH5NFfjpdRg17SpzhLHarC30qBXhIAhqKibVxmV4Zg==
   dependencies:
     "@material/feature-targeting" "11.0.0-canary.3201cae47.0"
+
+"@material/theme@11.0.0-canary.95322b11e.0":
+  version "11.0.0-canary.95322b11e.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-11.0.0-canary.95322b11e.0.tgz#dc6b8b168456b8fc3a50abf1a27750c1b31c75fc"
+  integrity sha512-qhYBRPW644jfBKiA+zzF/q1tWzwHFjCTuUwMJ0HK1t7Uzs1gPibSnbRa3CDfd8VPPcJ4qImlkHnnuGtUJiB/Pg==
+  dependencies:
+    "@material/feature-targeting" "11.0.0-canary.95322b11e.0"
 
 "@material/tooltip@11.0.0-canary.3201cae47.0":
   version "11.0.0-canary.3201cae47.0"
